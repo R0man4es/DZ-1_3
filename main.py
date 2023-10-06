@@ -25,6 +25,7 @@ def create_html(valutes):
         text += '<tr>'
         for v in valute.values():
             text += f'<td> <p style="color: red;">{v}</p> </td>'
+            # "мы раскрасим красным цветом стены древнего кремля!" :)
         text += '</tr>'
 
     text += '</table>'
